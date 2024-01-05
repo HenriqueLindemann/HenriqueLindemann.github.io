@@ -1,0 +1,170 @@
+.logo {
+  max-height: 43px;
+  margin-top: 0px;
+}
+
+.navbar.navbar-light.navbar-expand-md.fixed-top.bg-white.text-center {
+  max-width: 1000px;
+  align-content: center;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+#inicial {
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 700px) {
+  #inicial {
+    padding: 20px;
+  }
+}
+
+#inicial .jumbotron {
+  border-radius: 15px;
+  padding: 30px;
+  background-color: rgba(255,255,255, 0.75);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+@media (max-width: 700px) {
+  #inicial .jumbotron {
+    padding: 20px;
+  }
+}
+
+.site-section {
+  text-align: left;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .site-section {
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+#welcome p {
+  text-align: justify;
+  color: rgba(33,37,41,0.75);
+}
+
+#welcome h4 {
+  margin-left: 10PX;
+  color: rgb(225, 136, 56);
+}
+
+.text-center.primeira {
+  margin-top: 10px;
+}
+
+@media (min-width: 576px) {
+  .text-center.primeira {
+    margin-top: 3px;
+  }
+}
+
+.card.ambiente-fotos {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 450px) {
+  .card.ambiente-fotos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card.ambiente-fotos {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+.foto-ambiente {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .foto-ambiente {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.links-artigo {
+  color: rgb(72,108,63);
+  font-weight: 450;
+}
+
+#seta-artigo {
+  color: rgb(72,108,63);
+}
+
+.artigo-parágrafo {
+  text-align: justify;
+}
+
+.imagem-artigo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.botão-voltar-artigos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.lista-resultados {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.jumbotron.site-section {
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 558px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .jumbotron.site-section {
+    padding: 5px;
+  }
+}
+
+.div-mapa {
+  margin: 0 auto;
+}
+
+.street-view {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
