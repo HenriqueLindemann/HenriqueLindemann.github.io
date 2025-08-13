@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html class="text-break">
-
-<head>
+<html lang="pt-BR"><head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem Pilates Studio</title>
     <link rel="canonical" href="https://www.bempilates.com.br/">
     <meta property="og:url" content="https://www.bempilates.com.br/">
@@ -15,145 +12,509 @@
     <meta name="twitter:image" content="https://www.bempilates.com.br/assets/img/Logo-open-graph.png">
     <meta name="twitter:title" content="Bem Pilates Studio">
     <meta property="og:description" content="Studio de Pilates localizado no centro de Porto Alegre. Oferece aulas de condicionamento físico e sessões para reabilitação física com instrutores formados em Educação Física ou Fisioterapia, certificados em Pilates.">
+    
+    <!-- Schema.org markup -->
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
-            "@type": "WebSite",
+            "@type": "LocalBusiness",
             "name": "Bem Pilates Studio",
-            "url": "https://www.bempilates.com.br/"
+            "url": "https://www.bempilates.com.br/",
+            "description": "Studio de Pilates localizado no centro de Porto Alegre",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Rua dos Andradas 1464 - 10º andar - sala 101",
+                "addressLocality": "Porto Alegre",
+                "addressRegion": "RS",
+                "postalCode": "90020-010",
+                "addressCountry": "BR"
+            },
+            "telephone": "(51)99800-2430",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "-30.029644",
+                "longitude": "-51.226931"
+            }
         }
     </script>
+    
+    <!-- Favicons -->
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/Bem180x180.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Bem16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/Bem32x32.png">
     <link rel="icon" type="image/png" sizes="180x180" href="assets/img/Bem180x180.png">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/Bem192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/Bem512x512.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/Article-Clean.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Bold-BS4-Footer-Simple.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/Map-Clean-1.css">
-    <link rel="stylesheet" href="assets/css/Map-Clean.css">
-    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-<div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-<meta itemprop="url" content="http://www.bempilates.tech"/>
-<meta itemprop="latitude" content="-30.029644"/>
-<meta itemprop="longitude" content="-51.226931"/>
-<meta name="keywords" content="Pilates,studio,porto alegre,centro,fisioterapia,condicionamento,fisico,poa,rs,corrigir,postura,coluna,corpo,mente,saudavel,exercicios,resultado,saude,fisio,saudável,físico,exercícios,saúde,auto-estima, bem-estar,bem,Claudete,pilates porto alegre,pilates porto alegre rs,pilates porto alegre-rs,pilates porto alegre centro,pilates porto alegre-rs centro,pilates porto alegre rs centro,pilates centro porto alegre,pilates centro porto alegre rs,pilates centro porto alegre-rs,fisioterapia porto alegre,fisioterapia porto alegre rs,fisioterapia porto alegre-rs,fisioterapia porto alegre rs centro,fisioterapia porto alegre-rs centro,fisioterapia centro porto alegre rs,fisioterapia centro porto alegre-rs,pilates poa,pilates poa rs,pilates poa-rs,pilates poa rs centro,pilates poa centro,pilates poa-rs centro,pilates centro poa,pilates centro poa rs,pilates centro poa-rs" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Modern CSS -->
+    <link rel="stylesheet" href="assets/css/modern-styles.css">
+    
+    <meta name="keywords" content="Pilates,studio,porto alegre,centro,fisioterapia,condicionamento,fisico,poa,rs,corrigir,postura,coluna,corpo,mente,saudavel,exercicios,resultado,saude,fisio,saudável,físico,exercícios,saúde,auto-estima,bem-estar,bem,Claudete,pilates porto alegre,pilates porto alegre rs,pilates porto alegre-rs,pilates porto alegre centro,pilates porto alegre-rs centro,pilates porto alegre rs centro,pilates centro porto alegre,pilates centro porto alegre rs,pilates centro porto alegre-rs,fisioterapia porto alegre,fisioterapia porto alegre rs,fisioterapia porto alegre-rs,fisioterapia porto alegre rs centro,fisioterapia porto alegre-rs centro,fisioterapia centro porto alegre rs,fisioterapia centro porto alegre-rs,pilates poa,pilates poa rs,pilates poa-rs,pilates poa rs centro,pilates poa centro,pilates poa-rs centro,pilates centro poa,pilates centro poa rs,pilates centro poa-rs">
+    
+    <!-- Meta tag improvements -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Bem Pilates Studio">
 </head>
 
-<body class="text-center">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-white text-right shadow">
-        <div class="container"><a class="navbar-brand" data-bss-hover-animate="pulse" href="index.html"><img class="logo" src="assets/img/Logo%20site2.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link benefícios-link" data-bss-hover-animate="pulse" style="color: rgb(225, 136, 56);border-color: rgba(225,136,56,0);" href="#bene">Benefícios das aulas</a></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="#equipe" style="color: rgb(225, 136, 56);">Equipe</a></li>
-                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" style="color: rgb(225, 136, 56);" href="artigos/artigos-pilates-centro-porto-alegre.html">Artigos</a></li>
-                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="contato/bem-pilates-centro-porto-alegre.html" style="color: rgb(225, 136, 56);">Contato</a></li>
+<body data-aos-easing="ease-in-out" data-aos-duration="800" data-aos-delay="0" class="mobile-device">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm navbar-scrolled" aria-label="Menu de navegação principal">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/Logo%20site2.png" alt="Bem Pilates Studio" class="logo">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beneficios">Benefícios das aulas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="artigos/artigos-pilates-centro-porto-alegre.html">Artigos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato/bem-pilates-centro-porto-alegre.html">Contato</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <h1 style="height: 48px;">Heading</h1>
-    <div id="inicial" style="background: url(&quot;assets/img/foto1.jpg&quot;) center / cover no-repeat;">
-        <div class="jumbotron">
-            <h1 style="color: rgb(72, 108, 63);">Seja bem vindo ao Bem Pilates Studio!</h1>
-            <p>Nossa equipe no <strong>Centro Histórico de Porto Alegre </strong>está pronta para te atender com educadores físicos e fisioterapeutas especializados em Pilates! Disponibilizamos atividades de condicionamento físico e reabilitação para jovens, adultos e melhor idade.<br></p><a href="contato/bem-pilates-centro-porto-alegre.html"><button class="btn btn-primary text-center" data-bss-hover-animate="pulse" type="button" style="text-align: center;background: #e18838;"><strong><em>Contato</em></strong></button></a>
-        </div>
-    </div>
-    <div class="container site-section" id="welcome">
-        <h1 class="text-center primeira" style="color: rgb(72,108,63);">As aulas no Bem Pilates Studio</h1>
-        <h4 style="margin-top: 7px;">Diferenciais do Bem Pilates</h4>
-        <p class="parágrafo-seção">O Bem Pilates Studio se destaca por conta de sua coleção completa de aparelhos de Pilates com a qualidade garantida dos aparelhos MetaLife. Aqui, as aulas são realizadas nos aparelhos e instruídas de acordo com suas necessidades&nbsp;e&nbsp;objetivos.</p>
-        <h4 style="margin-top: 0px;">O ambiente</h4>
-        <p class="parágrafo-seção">No Bem Pilates você encontra um ambiente tranquilo, agradável e com ótima infraestrutura. O Studio tem a temperatura controlada e conta com uma ótima ventilação e iluminação natural.<br></p>
-    </div>
-    <div class="simple-slider">
-        <div class="container-fluid text-center fotos-slide" style="text-align: center;max-width: 612px;margin-top: -12px;margin-bottom: 10px;padding-right: 10px;padding-left: 10px;">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background: url(&quot;assets/img/foto2%20(1).jpg&quot;) center / cover;"></div>
-                    <div class="swiper-slide" style="background: url(&quot;assets/img/foto3%20(1).jpg&quot;) center / cover;"></div>
-                    <div class="swiper-slide" style="background: url(&quot;assets/img/foto4%20(2).jpg&quot;) center / cover;"></div>
-                    <div class="swiper-slide" style="background: url(&quot;assets/img/foto5.jpg&quot;) center / cover;"></div>
+
+    <!-- Hero Section -->
+    <section id="inicial" class="hero-section" aria-labelledby="bem-vindo-heading">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="jumbotron hero-content aos-init aos-animate" data-aos="fade-up">
+                        <h1 id="bem-vindo-heading" style="color: rgb(72, 108, 63);">Seja bem vindo ao Bem Pilates Studio!</h1>
+                        <p>Nossa equipe no <strong>Centro Histórico de Porto Alegre</strong> está pronta para te atender com educadores físicos e fisioterapeutas especializados em Pilates! Disponibilizamos atividades de condicionamento físico e reabilitação para jovens, adultos e melhor idade.<br></p>
+                        <a href="contato/bem-pilates-centro-alegre.html">
+                            <button class="btn btn-primary text-center cta-button" type="button" style="background: #e18838;">
+                                <strong><em>Contato</em></strong>
+                            </button>
+                        </a>
+                    </div>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
         </div>
-    </div>
-    <div class="container site-section" id="welcome" style="margin-top: -5px;">
-        <h4>Atenção individual</h4>
-        <p class="parágrafo-seção">As atividades são sempre realizadas nos aparelhos e são definidas de acordo com características e objetivos individuais dos alunos, seguindo os princípios do Pilates Original e contemporâneo. Por conta disso, fazemos questão de entrevistar o aluno e avaliá-lo para identificar o que será mais efetivo para si.</p>
-        <h4 style="margin-top: 15px;margin-bottom: 8px;">Endereço: Centro de Porto Alegre</h4>
-        <div class="endereço-api" style="text-align: center;"></div>
-        <div class="endereço-api-celular" style="text-align: center;margin-top: 8px;margin-bottom: 2px;"><div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-<strong>
-<font size=3>
-<i class="fa fa-home" aria-hidden="true" title="Endereço"></i>
-<span itemprop="streetAddress">Rua dos Andradas 1464</span>
- - 10º andar - sala 101<br>Centro,
-<span itemprop="addressLocality">Porto Alegre</span>,
-<span itemprop="addressRegion">RS</span>, CEP: <span itemprop="postalCode">90020-010</span> <br>
-<i class="fa fa-whatsapp" aria-hidden="true" title="WhatsApp"></i>
-</font>
-<span itemprop="telephone">(51)99800-2430</span>
-</font>
-</strong>
-</div></div>
-    </div>
-    <div class="map-clean" style="padding-right: 10px;padding-left: 10px;">
+    </section>
+    <!-- About Section -->
+    <section id="about" class="section-padding" aria-labelledby="about-heading">
         <div class="container">
-            <div class="intro"></div>
-        </div><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBNq6HwEQ-bFtrHnastEdgjI8dfrGHSS6M&amp;q=Bem+Pilates+Studio&amp;zoom=17" class="mapa-studio" width="100%" height="450" style="margin-top: -43px;margin-bottom: -2px;"></iframe>
-    </div>
-    <div class="container site-section" id="welcome" style="margin-top: -5px;">
-        <h4>Horários</h4>
-        <p id="bene" class="parágrafo-seção">As aulas têm uma duração de uma hora e estão disponíveis de segunda à sexta-feira no turno da manhã, das 08:00 às 14:00 e no turno da tarde, das 15:00 às 20:00.&nbsp; Esses horários estão disponíveis tanto para aulas presenciais em nosso Studio quanto para aulas virtuais no conforto de sua casa. Entre em contato para saber a disponibilidade e mais informações. Estaremos sempre prontos para te atender!<br></p>
-        <h4 style="margin-top: 15px;">Para que praticar Pilates?</h4>
-        <p class="parágrafo-seção">Existem diversos motivos para se praticar Pilates, na lista abaixo listamos alguns que são de diversos interesses.</p>
-        <div class="jumbotron site-section" style="background: rgba(72,108,63,0.94);color: #ffffff;margin-top: 15px;padding-right: 6px;padding-left: 6px;">
-            <h1 style="margin-bottom: 12px;"><strong>Motivos para praticar</strong><br></h1>
-            <ul class="text-left" style="margin-bottom: -6px;">
-                <li style="margin-bottom: 12px;">Adquirir e manter o bem-estar e qualidade de vida com a melhora da saúde completa;<br></li>
-                <li style="margin-bottom: 12px;">Melhorar a consciência corpora e o equilíbrio;</li>
-                <li style="margin-bottom: 12px;">Reeducar e melhorar a postura;<br></li>
-                <li style="margin-bottom: 12px;">Reabilitar-se de lesões;<br></li>
-                <li style="margin-bottom: 12px;">Diminuir o cansaço e o estresse;<br></li>
-                <li style="margin-bottom: 12px;">Desacelerar o processo de envelhecimento;<br></li>
-                <li style="margin-bottom: 12px;">Controlar o peso corporal<br></li>
-            </ul>
+            <div class="row">
+                <div class="col-12">
+                    <h2 id="about-heading" class="section-title text-center aos-init aos-animate" data-aos="fade-up">As aulas no Bem Pilates Studio</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up">
+                    <div class="content-block">
+                        <h4 class="content-subtitle">Diferenciais do Bem Pilates</h4>
+                        <p class="content-text">
+                            O Bem Pilates Studio se destaca por conta de sua coleção completa de aparelhos de Pilates com a qualidade garantida dos aparelhos MetaLife. Aqui, as aulas são realizadas nos aparelhos e instruídas de acordo com suas necessidades e objetivos.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="content-block">
+                        <h4 class="content-subtitle">O ambiente</h4>
+                        <p class="content-text">
+                            No Bem Pilates você encontra um ambiente tranquilo, agradável e com ótima infraestrutura. O Studio tem a temperatura controlada e conta com uma ótima ventilação e iluminação natural.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h4 style="margin-top: 15px;">Quem pode praticar?</h4>
-        <p id="equipe" class="parágrafo-seção">O Pilates é recomendado para todas as pessoas independentemente do sexo ou idade e de seu nível de condicionamento físico. Ele não somente pode ser utilizado para melhorar o condicionamento físico, melhorar a performance em esportes e para previnir lesões, como também é indicado para reabilitação física.</p>
-    </div>
-    <div class="container site-section" id="welcome" style="margin-top: -25px;">
-        <h1 class="text-center primeira" style="color: rgb(72,108,63);margin-top: 0px;">A Equipe Bem Pilates</h1>
-        <h4 style="margin-top: 7px;">Formação</h4>
-        <p class="parágrafo-seção">A equipe do Bem Pilates Studio é formada por educadores físicos e fisioterapeutas com formação em Pilates e cursos de especialização. Uma equipe multidisciplinar capacitada para preparar e ministrar programas de condicionamento físico e reabilitação com excelência. Todos integrantes da equipe são certificados em Pilates. Formados em Educação Física ou em Fisioterapia, com registro nos órgãos competentes.<br></p>
-        <p class="parágrafo-seção">A educadora física Claudete Lindemann, que também é administradora do Studio, é formada em Educação Física pela Universidade Federal do Rio Grande do Sul (UFRGS) com registro no CREF (CREF 007798.G/RS). É certificada em Pilates pela Associação Brasileira de Pilates (ABP). Possui ainda em seu currículo: Especialização em Método em Pilates pela UFRGS.<br></p>
-    </div>
-    <footer id="myFooter" style="padding: 0px;">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col footer-social" style="background: rgb(225,136,56);"><a class="social-icons" href="https://wa.me/5551998002430" target="_blank"><i class="fa fa-whatsapp" data-bss-hover-animate="pulse" style="color: rgb(225,136,56);border-color: rgb(72,108,63);"></i></a><a class="social-icons" href="https://www.facebook.com/BemPilates/" target="_blank"><i class="fa fa-facebook" data-bss-hover-animate="pulse" style="color: rgb(225,136,56);"></i></a><a class="social-icons" href="https://www.instagram.com/bem.pilates/" target="_blank"><i class="fa fa-instagram" data-bss-hover-animate="pulse" style="color: rgb(225,136,56);"></i></a><a class="social-icons" href="https://www.youtube.com/channel/UCb3tUkBk2bS-2MXDUecgydg" target="_blank"><i class="fa fa-youtube-play" data-bss-hover-animate="pulse" style="color: rgb(225,136,56);"></i></a></div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-padding bg-light" aria-label="Galeria de fotos do studio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center mb-4 aos-init aos-animate" data-aos="fade-up">Nosso Espaço</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="4000">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active" aria-label="Foto 1"></button>
+                            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" aria-label="Foto 2"></button>
+                            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2" aria-label="Foto 3"></button>
+                            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="3" aria-label="Foto 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/foto2%20(1).jpg" class="d-block w-100" alt="Vista interna do Bem Pilates Studio">
+                                <div class="mobile-swipe-hint">
+                                    <span>← Deslize para navegar →</span>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/foto3%20(1).jpg" class="d-block w-100" alt="Equipamentos de Pilates disponíveis no studio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/foto4%20(2).jpg" class="d-block w-100" alt="Sala de aulas do Bem Pilates Studio">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/foto5.jpg" class="d-block w-100" alt="Aparelhos Metalife no Studio Bem Pilates">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="section-padding" aria-labelledby="services-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up">
+                    <div class="content-block">
+                        <h4 id="services-heading" class="content-subtitle">Atenção individual</h4>
+                        <p class="content-text">
+                            As atividades são sempre realizadas nos aparelhos e são definidas de acordo com características e objetivos individuais dos alunos, seguindo os princípios do Pilates Original e contemporâneo.
+                        </p>
+                        <p class="content-text">
+                            Por conta disso, fazemos questão de entrevistar o aluno e avaliá-lo para identificar o que será mais efetivo para si.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="content-block">
+                        <h4 class="content-subtitle">Horários</h4>
+                        <p class="content-text">
+                            As aulas têm uma duração de uma hora e estão disponíveis de segunda à sexta-feira no turno da manhã, das 08:00 às 14:00 e no turno da tarde, das 15:00 às 20:00.
+                        </p>
+                        <p class="content-text">
+                            Esses horários estão disponíveis tanto para aulas presenciais em nosso Studio quanto para aulas virtuais no conforto de sua casa. Entre em contato para saber a disponibilidade e mais informações. Estaremos sempre prontos para te atender!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section-padding bg-light" aria-labelledby="location-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up">
+                    <h4 id="location-heading" class="content-subtitle text-start" style="margin-bottom: 1rem;">Endereço: Centro de Porto Alegre</h4>
+                    <div class="location-info" itemscope="" itemtype="http://schema.org/PostalAddress">
+                        <p class="location-address">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            <span itemprop="streetAddress">Rua dos Andradas 1464</span> - 10º andar - sala 101<br>
+                            Centro, <span itemprop="addressLocality">Porto Alegre</span>, 
+                            <span itemprop="addressRegion">RS</span>, CEP: <span itemprop="postalCode">90020-010</span>
+                        </p>
+                        <p class="location-phone">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            <span itemprop="telephone">(51)99800-2430</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBNq6HwEQ-bFtrHnastEdgjI8dfrGHSS6M&amp;q=Bem+Pilates+Studio&amp;zoom=17" class="map-iframe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização do Bem Pilates Studio">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Benefits Section -->
+    <section id="beneficios" class="section-padding" aria-labelledby="benefits-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 id="benefits-heading" class="content-subtitle text-start aos-init aos-animate" data-aos="fade-up">Para que praticar Pilates?</h4>
+                    <p class="content-text text-start aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        Existem diversos motivos para se praticar Pilates, na lista abaixo listamos alguns que são de diversos interesses.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefits-card">
+                        <h3 class="benefits-title">Motivos para praticar</h3>
+                        <ul class="benefits-list">
+                            <li>Adquirir e manter o bem-estar e qualidade de vida com a melhora da saúde completa</li>
+                            <li>Melhorar a consciência corporal e o equilíbrio</li>
+                            <li>Reeducar e melhorar a postura</li>
+                            <li>Reabilitar-se de lesões</li>
+                            <li>Diminuir o cansaço e o estresse</li>
+                            <li>Desacelerar o processo de envelhecimento</li>
+                            <li>Controlar o peso corporal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up">
+                    <h4 class="content-subtitle">Quem pode praticar?</h4>
+                    <p class="content-text">
+                        O Pilates é recomendado para todas as pessoas independentemente do sexo ou idade e de seu nível de condicionamento físico. Ele não somente pode ser utilizado para melhorar o condicionamento físico, melhorar a performance em esportes e para prevenir lesões, como também é indicado para reabilitação física.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Team Section -->
+    <section id="equipe" class="section-padding bg-light" aria-labelledby="team-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 id="team-heading" class="section-title text-center aos-init aos-animate" data-aos="fade-up">A Equipe Bem Pilates</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up">
+                    <div class="content-block">
+                        <h4 class="content-subtitle">Formação</h4>
+                        <p class="content-text">
+                            A equipe do Bem Pilates Studio é formada por educadores físicos e fisioterapeutas com formação em Pilates e cursos de especialização. Uma equipe multidisciplinar capacitada para preparar e ministrar programas de condicionamento físico e reabilitação com excelência.
+                        </p>
+                        <p class="content-text">
+                            Todos integrantes da equipe são certificados em Pilates. Formados em Educação Física ou em Fisioterapia, com registro nos órgãos competentes.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="content-block">
+                        <h4 class="content-subtitle">Claudete Lindemann</h4>
+                        <p class="content-text">
+                            A educadora física Claudete Lindemann, que também é administradora do Studio, é formada em Educação Física pela Universidade Federal do Rio Grande do Sul (UFRGS) com registro no CREF (CREF 007798.G/RS).
+                        </p>
+                        <p class="content-text">
+                            É certificada em Pilates pela Associação Brasileira de Pilates (ABP). Possui ainda em seu currículo: Especialização em Método em Pilates pela UFRGS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer id="footer" class="footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="social-links">
+                        <a href="https://wa.me/5551998002430" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/BemPilates/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/bem.pilates/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCb3tUkBk2bS-2MXDUecgydg" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
-</body>
 
+    <!-- Scripts -->
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Modern JS -->
+    <script src="assets/js/modern-script.js"></script>
+
+    <!-- Simple Gallery Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize AOS
+            AOS.init();
+            
+            // Enhanced mobile gallery controls
+            const carousel = document.getElementById('galleryCarousel');
+            const carouselInstance = new bootstrap.Carousel(carousel, {
+                touch: true,
+                interval: 4000,
+                wrap: true
+            });
+            
+            // Hide swipe hint after first interaction
+            let hasInteracted = false;
+            carousel.addEventListener('slide.bs.carousel', function() {
+                if (!hasInteracted) {
+                    const hint = document.querySelector('.mobile-swipe-hint');
+                    if (hint) {
+                        hint.style.opacity = '0';
+                        setTimeout(() => hint.remove(), 300);
+                    }
+                    hasInteracted = true;
+                }
+            });
+            
+            // Handle navbar scrolling
+            window.addEventListener('scroll', function() {
+                const navbar = document.querySelector('.navbar');
+                if (window.scrollY > 10) {
+                    navbar.classList.add('navbar-scrolled');
+                } else {
+                    navbar.classList.remove('navbar-scrolled');
+                }
+            });
+        });
+    </script>
+
+    <!-- Clean Gallery CSS -->
+    <style>
+        /* Gallery Carousel Styling */
+        #galleryCarousel {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+        #galleryCarousel .carousel-item img {
+            height: 400px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        #galleryCarousel .carousel-item img:hover {
+            transform: scale(1.02);
+        }
+        
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 50px;
+            height: 50px;
+            background: rgba(72, 108, 63, 0.8);
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .carousel-control-prev {
+            left: 15px;
+        }
+        
+        .carousel-control-next {
+            right: 15px;
+        }
+        
+        .carousel-indicators {
+            bottom: 15px;
+        }
+        
+        .carousel-indicators [data-bs-target] {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 2px solid #486c3f;
+            margin: 0 6px;
+        }
+        
+        .carousel-indicators .active {
+            background-color: #486c3f;
+        }
+        
+        /* Mobile swipe hint */
+        .mobile-swipe-hint {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            opacity: 1;
+            transition: opacity 0.3s ease;
+            z-index: 10;
+        }
+        
+        @media (max-width: 768px) {
+            #galleryCarousel .carousel-item img {
+                height: 280px;
+            }
+            
+            .carousel-control-prev,
+            .carousel-control-next {
+                display: none;
+            }
+            
+            .carousel-indicators {
+                bottom: 10px;
+            }
+            
+            .carousel-indicators [data-bs-target] {
+                width: 10px;
+                height: 10px;
+                margin: 0 4px;
+            }
+            
+            /* Make touch area larger on mobile */
+            .carousel-inner {
+                touch-action: pan-x;
+            }
+        }
+        
+        @media (min-width: 769px) {
+            .mobile-swipe-hint {
+                display: none;
+            }
+        }
+    </style>
+</body>
 </html>
