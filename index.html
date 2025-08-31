@@ -111,7 +111,7 @@
                     <div class="jumbotron hero-content aos-init aos-animate" data-aos="fade-up">
                         <h1 id="bem-vindo-heading" style="color: rgb(72, 108, 63);">Seja bem vindo ao Bem Pilates Studio!</h1>
                         <p>Nossa equipe no <strong>Centro Histórico de Porto Alegre</strong> está pronta para te atender com educadores físicos e fisioterapeutas especializados em Pilates! Disponibilizamos atividades de condicionamento físico e reabilitação para jovens, adultos e melhor idade.<br></p>
-                        <a href="contato/bem-pilates-centro-porto-alegre.html">
+                        <a href="contato/bem-pilates-centro-alegre.html">
                             <button class="btn btn-primary text-center cta-button" type="button" style="background: #e18838;">
                                 <strong><em>Contato</em></strong>
                             </button>
@@ -255,7 +255,12 @@
             <div class="row mt-4">
                 <div class="col-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
                     <div class="map-container">
-                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBNq6HwEQ-bFtrHnastEdgjI8dfrGHSS6M&amp;q=Bem+Pilates+Studio&amp;zoom=17" class="map-iframe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização do Bem Pilates Studio">
+                        <iframe 
+                            src="https://www.google.com/maps?output=embed&q=Bem+Pilates+Studio,+Rua+dos+Andradas+1464,+Porto+Alegre,+RS&z=17"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localização do Bem Pilates Studio">
                         </iframe>
                     </div>
                 </div>
@@ -513,6 +518,31 @@
         @media (min-width: 769px) {
             .mobile-swipe-hint {
                 display: none;
+            }
+        }
+        
+        /* Map Container Styling */
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 350px; /* Altura fixa para desktop */
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .map-container {
+                height: 300px; /* Altura para mobile */
             }
         }
     </style>
